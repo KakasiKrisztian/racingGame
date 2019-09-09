@@ -18,6 +18,10 @@ public class Vehicle {
         totalCount++;
     }
 
+    public double accelerate(double speed) {
+        return accelerate(speed, 1);
+    }
+
     public double accelerate(double speed, double durationInHours) {
         System.out.println(name + " is accelerating with " + speed + " km/h for " + durationInHours + " h. ");
 
