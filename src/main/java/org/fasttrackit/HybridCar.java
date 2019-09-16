@@ -14,9 +14,8 @@ public class HybridCar extends Vehicle {
         return distance;
 
 
-
-        }
-        //co-variant return type - metoda suprascrisa poate fi un sub tip de al metodei
+    }
+    //co-variant return type - metoda suprascrisa poate fi un sub tip de al metodei
     // de exemplu hybridcar in loc de clone (object)
 
     @Override

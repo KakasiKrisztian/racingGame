@@ -8,6 +8,9 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args) {
 
+        Game game = new Game();
+        game.start();
+
 //        Engine engine = new Engine();
 //        engine.manufacturer = "Renault";
 //        engine.capacity = 1600;
@@ -75,21 +78,23 @@ public class App {
 ////        System.out.println("Total count in car2: " + car2.totalCount);
 ////        System.out.println("Total count in Car class: " + Car.totalCount);
 
-        Vehicle hybridCar = new HybridCar();
-        hybridCar.setName("cheater");
+//        Vehicle hybridCar = new HybridCar();
+//        hybridCar.setName("cheater");
+//
+//        //method implementation is from object's class not from variable's class
+//
+//        hybridCar.accelerate(60, 1);
+//        System.out.println("Fuel level: " + hybridCar.getFuelLevel());
+//        System.out.println("Traveled distance: " + hybridCar.getTraveledDistance());
+//
+//        //variable type decides what methods can be invoked,
+//        //tipul obiectului decide implementarea metodei
+//
+//        //type casting
+//        //Asa anunti ca hybridCar sa foloseasca metoda din HybridCar si nu din Vehicle
+//        ((HybridCar) hybridCar).fly();
 
-        //method implementation is from object's class not from variable's class
 
-        hybridCar.accelerate(60, 1);
-        System.out.println("Fuel level: " + hybridCar.getFuelLevel());
-        System.out.println("Traveled distance: " + hybridCar.getTraveledDistance());
-
-        //variable type decides what methods can be invoked,
-        //tipul obiectului decide implementarea metodei
-
-        //type casting
-        //Asa anunti ca hybridCar sa foloseasca metoda din HybridCar si nu din Vehicle
-        ((HybridCar) hybridCar).fly();
 
 
 
