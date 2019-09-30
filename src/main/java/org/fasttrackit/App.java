@@ -95,10 +95,5 @@ public class App {
 //        ((HybridCar) hybridCar).fly();
 
 
-
-
-
-
-
     }
 }
